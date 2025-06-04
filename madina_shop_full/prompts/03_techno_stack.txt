@@ -1,4 +1,4 @@
 Étape 3: Rédige techno_stack.md en expliquant le choix des technologies:
 - Frontend: React + Tailwind.
 - Backend: Supabase.
-- Hébergement: Replit.
+- Hébergement: Fly.io (ou autre PaaS).
