@@ -1,0 +1,15 @@
+BUT DU PROJET
+------------
+Créer une plateforme e-commerce modulable pour les commerçants guinéens, incluant un service de logistique international.
+
+UTILISATEURS CIBLES
+-------------------
+• Boutiquiers et détaillants souhaitant vendre en ligne
+• Gestionnaires de coopératives et grossistes
+• Acheteurs guinéens recherchant une solution fiable de sourcing
+
+CONTRAINTES ESSENTIELLES
+------------------------
+• Accès mobile limité : application PWA et mode hors-ligne
+• Sécurité renforcée : 2FA/WebAuthn, paiement sécurisé, escrow
+• Budgets API restreints : cache et quotas pour services tiers
