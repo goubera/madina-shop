@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Accueil() {
+function Home() {
   const produits = [
     { id: 1, nom: 'Produit 1', prix: '10€' },
     { id: 2, nom: 'Produit 2', prix: '15€' },
