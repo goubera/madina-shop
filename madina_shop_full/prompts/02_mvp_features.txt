@@ -1,0 +1,5 @@
+Étape 2: Rédige le fichier mvp_features.md avec une liste des fonctionnalités MVP:
+- Authentification vendeur.
+- CRUD produits.
+- Affichage catalogue.
+- Contact via WhatsApp.

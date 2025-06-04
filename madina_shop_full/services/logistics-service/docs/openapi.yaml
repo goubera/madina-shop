@@ -1,0 +1,62 @@
+openapi: 3.0.3
+info:
+  title: Madina Shop Logistics API
+  version: 0.1.0
+paths:
+  /quote:
+    get:
+      summary: Shipping quote
+      parameters:
+        - in: query
+          name: origin
+          schema:
+            type: string
+          example: 'CNCHA'
+        - in: query
+          name: destination
+          schema:
+            type: string
+          example: 'GNCKY'
+        - in: query
+          name: volume
+          schema:
+            type: number
+          example: 2.5
+      responses:
+        '200':
+          description: Successful quote
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  price:
+                    type: number
+                    example: 1280.75
+                  currency:
+                    type: string
+                    example: USD
+                  eta_days:
+                    type: integer
+                    example: 60
+  /booking:
+    post:
+      summary: Confirm a freight booking
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookingRequest'
+      responses:
+        '201':
+          description: Booking created
+components:
+  schemas:
+    BookingRequest:
+      type: object
+      properties:
+        quoteId:
+          type: string
+        payerId:
+          type: string

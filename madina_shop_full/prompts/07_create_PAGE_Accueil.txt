@@ -1,0 +1,4 @@
+Étape 7: Génère src/pages/Accueil.jsx:
+- Importer React.
+- Layout de la page avec header, liste de produits, footer.
+- Utiliser Tailwind.

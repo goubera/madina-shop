@@ -1,0 +1,3 @@
+Étape 9: Génère src/components/ProductCard.jsx:
+- Props: nom, image, prix.
+- Affichage carte simple Tailwind.

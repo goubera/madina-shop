@@ -1,0 +1,5 @@
+Tu es dans le projet Madina Shop.
+Étape 1: Rédige le fichier objectifs.txt dans project-planning/ avec:
+- Le but du projet.
+- Les utilisateurs cibles.
+- Les contraintes essentielles.

@@ -1,0 +1,3 @@
+Étape 10: Génère src/services/products.js:
+- Fonctions: getProducts(), addProduct(data), deleteProduct(id).
+- Utiliser le client Supabase.

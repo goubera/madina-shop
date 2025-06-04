@@ -1,0 +1,27 @@
+PROJECT CONTEXT — MADINA SHOP (May 2025)
+
+Goal
+----
+Plateforme e-commerce modulaire destinée aux commerçants guinéens, 
+incluant un module logistique pour sourcing & fret (Freightos).
+
+Components
+----------
+1. **Boutique** (apps/shop) : catalogue, panier, paiement, back-office.
+2. **Logistics-service** (services/logistics-service) : endpoints /quote, /booking, etc.
+3. **Auth & Shared Services** : Supabase Auth + 2FA, Storage, Metrics.
+
+Constraints
+-----------
+• Connexion mobile instable : prévoir PWA/offline.  
+• Sécurité élevée : chiffrement E2E chat (Matrix), 2FA/WebAuthn, escrow.  
+• Budget API tiers limité : quotas, cache pour Freightos.  
+• Conformité douanes guinéennes (RCCM, déclaration pré-douane).
+
+Tech Environment
+----------------
+- Front : React 18, Vite, Tailwind CSS, Zustand
+- Back : Fastify + TypeScript, Supabase Auth & Postgres
+- Micro-service logistics : NestJS/Fastify, PostgreSQL, Redis
+- Messaging : Matrix Synapse, fallback WhatsApp Business API
+- Logistics API : Freightos, Flexport, 17Track

@@ -1,0 +1,4 @@
+Étape 8: Génère src/components/Navbar.jsx:
+- Logo.
+- Liens vers Boutique, AjouterProduit, Contact.
+- Responsive.

@@ -1,0 +1,2 @@
+Étape 6: Dans src/services/supabaseClient.js, génère le client Supabase avec URL et clé.
+Utilise les variables d'environnement.

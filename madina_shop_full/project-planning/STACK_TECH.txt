@@ -1,0 +1,7 @@
+Frontend:   React 18, Vite, Tailwind CSS, Zustand, React-Query
+Backend:    Fastify (Node 18) + TypeScript, GraphQL Gateway (Apollo Router)
+DB:         Supabase Postgres (Prisma ORM)
+Auth:       Supabase Auth (JWT + 2FA/WebAuthn)
+Realtime:   Matrix Synapse (chat E2E)
+DevOps:     Docker, Fly.io (ou autre PaaS), GitHub Actions
+Analytics:  Prometheus + Grafana, Sentry (logs/erreurs)
