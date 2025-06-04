@@ -1,2 +1,2 @@
-Étape 5: Initialise la structure de dossier src/ et public/ comme dans le template.
+Étape 5: Initialise la structure des dossiers src/ et public/ comme dans le template.
 Crée tous les sous-dossiers (assets, components, pages, services, styles, utils).
