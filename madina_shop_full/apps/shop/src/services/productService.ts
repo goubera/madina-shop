@@ -16,6 +16,20 @@ export async function getProducts(): Promise<Product[]> {
   return (data as Product[]) || [];
 }
 
+export async function getProductById(id: number): Promise<Product | null> {
+  const { data, error } = await supabase
+    .from('products')
+    .select('*')
+    .eq('id', id)
+    .single();
+
+  if (error) {
+    console.error('getProductById error', error);
+    return null;
+  }
+  return data as Product | null;
+}
+
 export async function addProduct(product: Product): Promise<Product | null> {
   const { data, error } = await supabase.from('products').insert([product]);
   if (error) {
