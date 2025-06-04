@@ -60,3 +60,7 @@ components:
           type: string
         payerId:
           type: string
+      required:
+        - quoteId
+        - payerId
+
