@@ -3,7 +3,7 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 jest.mock('@supabase/supabase-js');
 
 // Require the service after mocking createClient
-const productService = require('../../apps/shop/src/services/productService');
+const productService = require('../../madina_shop_full/apps/shop/src/services/productService');
 
 const mockFrom = jest.fn();
 const mockSelect = jest.fn();
